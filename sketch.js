@@ -25,7 +25,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world; 
 
-    umbrella = new Umbrella(200,550,105)
+    umbrella = new Umbrella(200,250,105)
 
     man = createSprite(200,460)
     man.addImage(manImg);
